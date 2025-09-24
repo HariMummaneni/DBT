@@ -43,4 +43,4 @@ models:
     Staging:
      +materialized: view
     Reporting:
-     +materialized: table
+     +materialized: view
