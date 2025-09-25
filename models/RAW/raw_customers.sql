@@ -4,4 +4,4 @@
     )
 }}
 
-Select * from raw.datamart.customers
+Select * from {{ source('datamart', 'customers') }}
