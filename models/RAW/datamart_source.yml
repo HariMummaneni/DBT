@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: datamart
+    database: raw
+    schema: datamart
+    tables:
+        - name: customers
+        - name: orders
+        - name: products
+
+
